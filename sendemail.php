@@ -2,8 +2,8 @@
 // Handles the Book a Service and Share Your Experience forms.
 // Needs PHP hosting with mail() enabled (GoDaddy cPanel works).
 header('Content-Type: application/json');
-$TO   = 'info@wamts.com';
-$FROM = 'no-reply@wamts.com';      // must be an address on your own domain for reliable delivery
+$TO   = 'info@wamts.me';
+$FROM = 'no-reply@wamts.me';      // must be an address on your own domain for reliable delivery
 
 function out($ok, $msg){ echo json_encode(['ok'=>$ok,'message'=>$msg]); exit; }
 function clean($v, $max = 1000){

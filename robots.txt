@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /reviews-pending.json
+Disallow: /sendemail.php
+
+Sitemap: https://www.wamts.me/sitemap.xml
